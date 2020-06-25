@@ -9,7 +9,7 @@ using namespace std;
 int main(){
 	vector<string> col_names = {"seconds", "latitude", "longitude", "altitude"};
 
-	string filename = "SciTec_code_problem_data.csv";
+	string filename = "data.csv";
 	
 	// create our csv
 	Dataframe data_table(filename);
